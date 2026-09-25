@@ -1,7 +1,7 @@
 import assert from 'node:assert'
 import {verificarAprovacaoAluno} from '../source/verificarAprovacaoAluno.js'
 
-describe('Título da Suite de teste', function (){
+describe('Verificar Aprovação do Aluno', function (){
     it('CT01: Verificar se um aluno com media 9 e frequencia 90 é aprovado', function(){
         // AAA
         // Arrange -> Organizar / Preparar
