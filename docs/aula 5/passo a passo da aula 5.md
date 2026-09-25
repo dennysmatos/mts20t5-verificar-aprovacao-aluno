@@ -70,14 +70,14 @@ Exemplo de teste no padrão **AAA**:
 
 ```javascript
 it('CT03: média 4 e frequência 75% resultam em recuperação', function () {
-	// Arrange: preparar
-	const resultadoEsperado = 'Recuperação'
+ // Arrange: preparar
+ const resultadoEsperado = 'Recuperação'
 
-	// Act: executar
-	const resultadoEncontrado = verificarAprovacaoAluno(4, 75)
+ // Act: executar
+ const resultadoEncontrado = verificarAprovacaoAluno(4, 75)
 
-	// Assert: verificar
-	assert.equal(resultadoEncontrado, resultadoEsperado)
+ // Assert: verificar
+ assert.equal(resultadoEncontrado, resultadoEsperado)
 })
 ```
 
